@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+    background-color: #e6e6e6 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+header {
+	position: fixed;
+	top: 0;
+    width: 100%;
+    height: 120px;
+}
+
+h1.title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #555555;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+h2.desc {
+    font-size: 20px;
+    font-weight: normal;
+    color: #777777;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.5;
+  }
+  
+
+.logo {
+	float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navbar {
+	float: right;
+    position: right;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 90px;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    color: #00688B;
+    text-decoration: underline;
+}
+
+.container {
+    padding-top: 140px;
+}
+
+button {
+    background-color: #f0a500;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+  
+button:hover { 
+    background-color: #004c64;
+}
+
+button img {
+    width: 30px;
+}
+
+button a {
+    color: #000 !important;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+
+#photo {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 20px;
+}
